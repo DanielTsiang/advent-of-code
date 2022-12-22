@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class Day02 extends Day {
 
-    protected List<String> parseData() {
+    private List<String> parseData() {
         String value;
         List<String> values;
 

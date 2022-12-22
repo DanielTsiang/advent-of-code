@@ -10,7 +10,7 @@ import utils.Day;
 
 public class Day01 extends Day {
 
-    protected List<String> parseData() {
+    private List<String> parseData() {
         String value;
         List<String> values;
 
