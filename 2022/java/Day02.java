@@ -2,13 +2,10 @@
  * Script to find the total score for the two-letter combinations.
  */
 
-import utils.Day;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-
-
+import utils.Day;
 
 public class Day02 extends Day {
 

@@ -2,14 +2,13 @@
  * Script to find values of common items.
  */
 
-import utils.Day;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
+import utils.Day;
 
 
 public class Day03 extends Day {
