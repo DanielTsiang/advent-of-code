@@ -8,8 +8,8 @@ from day import Day
 
 class Range:
     def __init__(self, range: list[str, str]):
-        self.start = int(range[0])
-        self.end = int(range[1])
+        self.start: int = int(range[0])
+        self.end: int = int(range[1])
 
 
 class Day04(Day):
