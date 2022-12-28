@@ -63,7 +63,7 @@ class Day07(Day):
         current_free_space = total_space - dir_sizes["/"]
         extra_free_space_required = min_space_required - current_free_space
 
-        # Find the first directory that is larger than the required space
+        # Find the minimum directory size that is larger than the required space
         return min(size for size in dir_sizes.values() if size >= extra_free_space_required)
 
 
